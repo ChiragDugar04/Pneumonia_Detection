@@ -3,8 +3,9 @@
 ## 🚀 Project Overview
 This project leverages **Convolutional Neural Networks (CNNs)** to detect **pneumonia** from chest X-ray images. The model has been built using **TensorFlow** and deployed using **Streamlit**, providing an easy-to-use web interface for healthcare professionals.
 
+---
 
-## 📂 Project Structure
+## 💂️ Project Structure
 ```
 PNEUMONIA_DETECTION_PROJECT/
 │
@@ -37,9 +38,10 @@ PNEUMONIA_DETECTION_PROJECT/
 ├── README.md
 └── requirements.txt
 ```
+
 ---
 
-## 🧠 Model Information
+## 🧐 Model Information
 - **Architecture:** VGG16 (Fine-tuned for binary classification)
 - **Input:** Chest X-ray images (RGB, resized to 224x224 pixels)
 - **Output:** Binary classification (Normal vs Pneumonia)
@@ -49,7 +51,7 @@ PNEUMONIA_DETECTION_PROJECT/
 ---
 
 ## 📊 Dataset
-- Dataset used: **[NEU-DET Dataset for Defect Detection](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)**
+- **Dataset used:** [NEU-DET Dataset for Defect Detection](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 - **Train:** 5216 images  
 - **Test:** 624 images  
 - **Validation:** 16 images
@@ -66,28 +68,28 @@ PNEUMONIA_DETECTION_PROJECT/
 
 ## ⚙️ Installation
 
-1️⃣ Clone this repository:
-```bash
-git clone https://github.com/yourusername/pneumonia-detection.git
-cd pneumonia-detection
-```
+1. **Clone this repository:**
+    ```bash
+    git clone https://github.com/yourusername/pneumonia-detection.git
+    cd pneumonia-detection
+    ```
 
-2️⃣ Create a virtual environment (recommended for deployment):
-```bash
-python -m venv deployment_env
-source deployment_env/bin/activate  
-```
+2. **Create a virtual environment (recommended for deployment):**
+    ```bash
+    python -m venv deployment_env
+    source deployment_env/bin/activate  
+    ```
 
-3️⃣ Install dependencies:
-```bash
-pip install -r app/requirements.txt
-```
+3. **Install dependencies:**
+    ```bash
+    pip install -r app/requirements.txt
+    ```
 
-4️⃣ Run the Streamlit app:
-```bash
-cd app
-streamlit run app.py
-```
+4. **Run the Streamlit app:**
+    ```bash
+    cd app
+    streamlit run app.py
+    ```
 
 ---
 
@@ -98,10 +100,10 @@ streamlit run app.py
 
 ---
 
-## 📈 Model Performance
-✅ **Accuracy:** 95%  
-✅ **Precision:** 93%  
-✅ **Recall:** 96%
+## 💡 Model Performance
+- **Accuracy:** 95%  
+- **Precision:** 93%  
+- **Recall:** 96%
 
 ---
 
@@ -114,15 +116,15 @@ You can deploy this app using:
 ---
 
 ## 🤖 Future Improvements
-✨ Implement Grad-CAM to visualize CNN attention on the images.
-✨ Train on a larger dataset for more generalizable predictions.
-✨ Create a REST API for model inference.
+- ✨ Implement Grad-CAM to visualize CNN attention on the images.
+- ✨ Train on a larger dataset for more generalizable predictions.
+- ✨ Create a REST API for model inference.
 
 ---
 
-## 📄 License
+## 📝 License
+This project is open-source and available under the **MIT License**.
 
-**This project is open-source and available under the MIT License.**
 ---
 
 ## ⭐ Acknowledgments
@@ -132,6 +134,5 @@ You can deploy this app using:
 
 ---
 
-
-✨ **Happy Coding! 🚀**
+🌟 **Happy Coding! 🚀**
 
