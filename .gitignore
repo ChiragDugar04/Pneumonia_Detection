@@ -1,0 +1,23 @@
+# Ignore virtual environments
+medical_env/
+deployment_env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.keras
+*.h5
+
+*.log
+
+Data/
+*.csv
+*.xlsx
+*.json
+*.zip
+*.h5
+*.hdf5
+*.keras
+
