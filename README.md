@@ -122,7 +122,7 @@ You can deploy this app using:
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+**This project is open-source and available under the MIT License.**
 ---
 
 ## ⭐ Acknowledgments
